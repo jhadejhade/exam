@@ -1,4 +1,4 @@
-# exam
+# Task Requirements:
 
 Your task is to create a football information app supporting the following requirements:
 ● A splash screen will be shown when the app is launched. Use whatever image you want for the splash screen.
@@ -15,5 +15,5 @@ Design / implementation guidelines
 3. Pay attention to clean code.
 Good luck!
 
-Note:
+# Note:
 I have added a filter call in the details page since most of the teams don't have any upcoming matches, just so you can check how the ui looks like (choose finished for results).
