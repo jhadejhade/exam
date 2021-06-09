@@ -11,7 +11,7 @@ Your task is to create a football information app supporting the following requi
 * For this exercise, you should implement the app in Swift.
 * Football information is available from https://www.football-data.org/.
 
-Design / implementation guidelines
+# Design / implementation guidelines
 1. You can use whichever packages/components you want.
 2. You do not have to write tests.
 3. Pay attention to clean code.
@@ -19,3 +19,7 @@ Good luck!
 
 # Note:
 I have added a filter call in the details page since most of the teams don't have any upcoming matches, just so you can check how the ui looks like (choose finished for results).
+
+# How to test:
+* Open .xcworkspace
+* run on either simulator or a real device
