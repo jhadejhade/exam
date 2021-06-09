@@ -23,3 +23,4 @@ I have added a filter call in the details page since most of the teams don't hav
 # How to test:
 * Open .xcworkspace
 * run on either simulator or a real device
+* Works on iOS 13 and up
