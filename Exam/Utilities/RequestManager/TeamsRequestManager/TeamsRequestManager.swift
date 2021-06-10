@@ -31,7 +31,7 @@ class TeamsRequestManager: TeamsRequestManagerProtocol {
     }
     
     func getTeamMatches(id: Int, limit: Int, status: Status = .finished) -> AnyPublisher<TeamMatchesResponse, ApiError> {
-        let api = API(path: .getTeamMatches(id: id), queryParams: ["limit": limit, "status": status.rawValue])
+        let api = API(path: .getTeamMatches(id: id), queryParams: ["limit": limit.description, "status": status.rawValue])
         
         return requestManager.request(type: TeamMatchesResponse.self, api: api)
     }
