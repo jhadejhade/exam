@@ -18,7 +18,7 @@ Your task is to create a football information app supporting the following requi
 Good luck!
 
 # Note:
-I have added a filter call in the details page since most of the teams don't have any upcoming matches, just so you can check how the ui looks like (choose finished for results).
+I have added a filter call in the details page since most of the teams don't have any upcoming matches, just so you can check how the ui looks like (choose Finished for results).
 
 # How to test:
 * Open .xcworkspace
