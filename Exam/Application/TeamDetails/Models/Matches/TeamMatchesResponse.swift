@@ -5,8 +5,8 @@
 
 import Foundation
 
-struct TeamMatchesResponse: Codable {
-
-        let count: Int?
-        let matches: [Match]
+class TeamMatchesResponse: Codable {
+    
+    let count: Int?
+    let matches: [Match]
 }

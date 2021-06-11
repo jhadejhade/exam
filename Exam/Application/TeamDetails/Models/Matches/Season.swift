@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Season : Codable {
+class Season : Codable {
     
     let currentMatchday: Int?
     let endDate: String?

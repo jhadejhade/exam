@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Competition: Codable {
+class Competition: Codable {
     
     let area: Area?
     let id: Int?

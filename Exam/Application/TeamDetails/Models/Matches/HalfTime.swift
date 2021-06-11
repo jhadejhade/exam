@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct HalfTime: Codable {
+class HalfTime: Codable {
     
     let awayTeam: Int?
     let homeTeam: Int?

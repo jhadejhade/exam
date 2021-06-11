@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct HomeTeam: Codable {
+class HomeTeam: Codable {
     
     let id: Int?
     let name: String?

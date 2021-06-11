@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Odd: Codable {
-
-        let msg : String?
+class Odd: Codable {
+    
+    let msg : String?
 }

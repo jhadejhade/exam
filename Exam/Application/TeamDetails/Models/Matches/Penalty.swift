@@ -5,8 +5,8 @@
 
 import Foundation
 
-struct Penalty: Codable {
-
-        let awayTeam: Int?
-        let homeTeam: Int?
+class Penalty: Codable {
+    
+    let awayTeam: Int?
+    let homeTeam: Int?
 }

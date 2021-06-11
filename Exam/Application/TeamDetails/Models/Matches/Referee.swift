@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Referee: Codable {
+class Referee: Codable {
     
     let id: Int?
     let name: String?

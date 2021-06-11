@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct TeamResponse: Codable {
+class TeamResponse: Codable {
     let count: Int?
     let teams: [Team]
 }

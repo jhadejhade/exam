@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Score: Codable {
+class Score: Codable {
     
     let duration: String?
     let extraTime: ExtraTime?

@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Area : Codable {
+class Area : Codable {
     let id : Int?
     let name : String?
     let code: String?

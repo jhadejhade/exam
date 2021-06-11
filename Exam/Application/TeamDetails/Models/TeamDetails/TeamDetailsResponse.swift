@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct TeamDetailsResponse: Codable {
+class TeamDetailsResponse: Codable {
     
     let activeCompetitions: [ActiveCompetition]?
     let address: String?
